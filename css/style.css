@@ -1,0 +1,15 @@
+/* REGOLE GENERALI */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* test */
+
+[class*="col-"] {
+  min-height: 150px;
+  background-color: #00FFFF;
+  border: solid 1px #000000;
+}
