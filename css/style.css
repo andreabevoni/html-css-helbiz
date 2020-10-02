@@ -107,9 +107,35 @@ nav .black {
   display: inline-block;
 }
 
+/* REGOLE PER MAIN */
 
+/* SECTION PRODOTTI */
 
+main .prodotto {
+  background-color: #fafafa;
+  margin: 40px 20px;
+  text-align: center;
+}
 
+main .prodotto h2 {
+  font-size: 40px;
+  padding: 50px 0 20px;
+}
+
+main .prodotto .text {
+  font-size: 20px;
+}
+
+main .prodotto a {
+  display: block;
+  font-size: 16px;
+  padding: 20px 0 30px;
+}
+
+main .prodotto img {
+  height: 300px;
+  margin-bottom: 50px;
+}
 
 
 
@@ -119,6 +145,10 @@ nav .black {
 
 @media all and (max-width: 768px) {
 
+  /* REGOLE PER HEADER */
+
+  /* NAV */
+
   #nav-piccolo {
     display: block;
   }
@@ -126,6 +156,8 @@ nav .black {
   #nav-grande {
     display: none;
   }
+
+  /* JUMBOTRON */
 
   #jumbotron h1 {
     font-size: 40px;
@@ -141,12 +173,36 @@ nav .black {
 
 @media all and (min-width: 769px) and (max-width: 992px) {
 
+  /* REGOLE PER HEADER */
+
+  /* NAV */
+
   #nav-piccolo {
     display: block;
   }
 
   #nav-grande {
     display: none;
+  }
+
+  /* REGOLE PER MAIN */
+
+  /* SECTION PRODOTTI */
+
+  main .prodotto h2 {
+    font-size: 30px;
+  }
+
+  main .prodotto .text {
+    font-size: 16px;
+  }
+
+  main .prodotto a {
+    font-size: 14px;
+  }
+
+  main .prodotto img {
+    height: 250px;
   }
 
 }
