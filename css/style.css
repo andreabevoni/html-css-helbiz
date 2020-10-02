@@ -13,3 +13,32 @@
   background-color: #00FFFF;
   border: solid 1px #000000;
 }
+
+.center5 {
+  padding: 0 5%;
+}
+
+.center10 {
+  padding: 0 10%;
+  padding: 0 10%;
+}
+
+/* REGOLE PER HEADER */
+
+/* NAV */
+
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 500;
+  background-color: #FFFFFF;
+}
+
+/* JUMBOTRON */
+
+#jumbotron {
+  margin-top: 150px;
+  min-height: 500px;
+}
