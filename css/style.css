@@ -4,6 +4,11 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Noto Sans', sans-serif;
+}
+
+a {
+  text-decoration: none;
 }
 
 /* test */
@@ -45,4 +50,37 @@ nav {
 #jumbotron {
   margin-top: 150px;
   min-height: 500px;
+}
+
+
+
+
+
+
+/* REGOLE SMARTPHONE */
+
+@media all and (max-width: 768px) {
+
+  #nav-piccolo {
+    display: block;
+  }
+
+  #nav-grande {
+    display: none;
+  }
+
+}
+
+/* REGOLE TABLET */
+
+@media all and (min-width: 769px) and (max-width: 992px) {
+
+  #nav-piccolo {
+    display: block;
+  }
+
+  #nav-grande {
+    display: none;
+  }
+
 }
