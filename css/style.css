@@ -15,6 +15,15 @@ ul{
   list-style-type: none;
 }
 
+.center5 {
+  padding: 0 5%;
+}
+
+.center10 {
+  padding: 0 10%;
+  padding: 0 10%;
+}
+
 .app-store img {
   height: 70px;
 }
@@ -26,15 +35,6 @@ ul{
   background-color: #00FFFF;
   border: solid 1px #000000;
 } */
-
-.center5 {
-  padding: 0 5%;
-}
-
-.center10 {
-  padding: 0 10%;
-  padding: 0 10%;
-}
 
 /* REGOLE PER HEADER */
 
@@ -81,32 +81,33 @@ nav .black {
 
 #jumbotron {
   margin-top: 80px;
-  min-height: 800px;
   background-image: url(../img/sfondo_jumbotron.jpg);
   background-size: cover;
   background-position: bottom;
-  background-repeat: no-repeat;
-  color: white;
+  color: #FFFFFF;
   text-align: center;
-  position: relative;
 }
 
-.centered {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+#jumbotron .opacity {
+  background-color:rgba(0, 0, 0, 0.4);
 }
 
 #jumbotron h1 {
   font-size: 50px;
-  margin-bottom: 20px;
+  margin: 200px 0 20px;
 }
 
 #jumbotron .text {
   font-size: 16px;
   margin-bottom: 10px;
 }
+
+#jumbotron .app-store {
+  margin-bottom: 200px;
+  display: inline-block;
+}
+
+
 
 
 
@@ -124,6 +125,14 @@ nav .black {
 
   #nav-grande {
     display: none;
+  }
+
+  #jumbotron h1 {
+    font-size: 40px;
+  }
+
+  .app-store img {
+    height: 50px;
   }
 
 }
