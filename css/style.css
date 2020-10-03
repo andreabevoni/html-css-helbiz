@@ -27,6 +27,11 @@ ul{
   height: 70px;
 }
 
+.opacity {
+  background-color:rgba(0, 0, 0, 0.4);
+  min-height: 400px;
+}
+
 /* test */
 
 /* [class*="col-"] {
@@ -85,10 +90,6 @@ nav .black {
   background-position: bottom;
   color: #FFFFFF;
   text-align: center;
-}
-
-#jumbotron .opacity {
-  background-color:rgba(0, 0, 0, 0.4);
 }
 
 #jumbotron h1 {
@@ -182,8 +183,7 @@ main .telefono .contenuto_telefono .text2 {
 /* SECTION INFORMAZIONI */
 
 main .info {
-  /* debug */
-  min-height: 300px;
+  min-height: 400px;
   color: #FFFFFF;
   text-align: center;
 }
@@ -203,17 +203,18 @@ main .info.first .info-container{
 }
 
 main .info.second {
-  /* background-image: url(../img/sfondo_info2.png);
-  background-size: cover;
-  background-position: center; */
+  background-image: url(../img/sfondo_info2.png);
+  background-size: 180px, 100%;
+  background-repeat: no-repeat;
+  background-position: bottom;
   background-color: #323F4D;
   margin: 40px 20px 40px 0;
+  padding: 0 20px;
 }
 
 main .info.third {
   background-image: url(../img/sfondo_info3.jpg);
   background-size: cover;
-  background-position: center;
   margin: 40px 0 40px 20px;
 }
 
@@ -224,13 +225,17 @@ main .info.first h1 {
 
 main .info h2 {
   font-size: 30px;
-  margin-bottom: 10px;
+  padding: 30px 0 20px;
 }
 
 main .info .text,
 main .info a {
   font-size: 18px;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+main .info a:nth-of-type(2) {
+  margin-left: 10px;
 }
 
 
@@ -285,6 +290,12 @@ main .info a {
   main .info.first h1 {
     font-size: 30px;
   }
+
+  main .info.second,
+  main .info.third {
+    margin: 40px 0 0;
+  }
+
 
 }
 
