@@ -138,6 +138,18 @@ main .prodotto img {
 
 /* SECTION TELEFONO */
 
+main .telefono {
+  position: relative;
+}
+
+main .telefono img {
+  width: 250px;
+  position: absolute;
+  top: 150px;
+  left: 50%;
+  transform: translate(-50%, -0%);
+}
+
 main .telefono .sfondo_telefono {
   background-image: url(../img/sfondo_telefono.jpg);
   background-size: cover;
@@ -146,28 +158,29 @@ main .telefono .sfondo_telefono {
 }
 
 main .telefono .contenuto_telefono {
-  background-color: yellow;
-  text-align: center;
+  background-color: #FFFFFF;
+}
+
+main .telefono .contenuto_telefono .padding10 {
+  padding: 0 10%;
 }
 
 main .telefono .contenuto_telefono h2 {
-  font-size: 30px;
+  font-size: 26px;
   margin: 100px 0;
 }
 
-/* main .telefono .contenuto_telefono img {
-  width: 300px;
-} */
-
 main .telefono .contenuto_telefono .text1 {
-  font-size: 16px;
-  margin-top: 100px;
+  font-size: 20px;
+  margin-top: 110px;
 }
 
 main .telefono .contenuto_telefono .text2 {
   font-size: 14px;
-  margin-bottom: 100px;
 }
+
+
+
 
 
 
@@ -196,6 +209,22 @@ main .telefono .contenuto_telefono .text2 {
 
   .app-store img {
     height: 50px;
+  }
+
+  /* REGOLE PER MAIN */
+
+  /* SECTION TELEFONO */
+
+  main .telefono .contenuto_telefono h2 {
+    margin: 300px 0 20px;
+  }
+
+  main .telefono .contenuto_telefono .text1 {
+    margin: 0 0 10px;
+  }
+
+  main .telefono .contenuto_telefono .text2 {
+    margin-bottom: 50px;
   }
 
 }
