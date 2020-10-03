@@ -15,6 +15,14 @@ ul{
   list-style-type: none;
 }
 
+.black {
+  color: #000000;
+}
+
+.white {
+  color: #FFFFFF;
+}
+
 .center5 {
   padding: 0 5%;
 }
@@ -53,10 +61,6 @@ nav {
   line-height: 80px;
   z-index: 500;
   background-color: #FFFFFF;
-}
-
-nav .black {
-  color: #000000;
 }
 
 #nav-grande .nav-link,
@@ -188,9 +192,7 @@ main .info {
   text-align: center;
 }
 
-main .info .white {
-  color: #FFFFFF;
-}
+
 
 main .info.first {
   background-image: url(../img/sfondo_info1.jpg);
@@ -208,14 +210,14 @@ main .info.second {
   background-repeat: no-repeat;
   background-position: bottom;
   background-color: #323F4D;
-  margin: 40px 20px 40px 0;
+  margin: 40px 20px 0 0;
   padding: 0 20px;
 }
 
 main .info.third {
   background-image: url(../img/sfondo_info3.jpg);
   background-size: cover;
-  margin: 40px 0 40px 20px;
+  margin: 40px 0 0 20px;
 }
 
 main .info.first h1 {
@@ -236,6 +238,32 @@ main .info a {
 
 main .info a:nth-of-type(2) {
   margin-left: 10px;
+}
+
+/* SECTION SOCIAL */
+
+#social {
+  margin: 40px 0;
+  background-image: url(../img/pachwork.jpg);
+  /* background-size: cover;
+  background-position: center; */
+}
+
+#social .box-social {
+  margin: 100px 0;
+  background-color: #FFFFFF;
+  text-align: center;
+}
+
+#social .box-social .text {
+  font-size: 30px;
+  padding: 50px 0 10px
+}
+
+#social li {
+  display: inline-block;
+  font-size: 30px;
+  padding: 0 10px 50px;
 }
 
 
