@@ -23,6 +23,10 @@ ul{
   color: #FFFFFF;
 }
 
+.grey {
+  color: #666666;
+}
+
 .center5 {
   padding: 0 5%;
 }
@@ -65,6 +69,10 @@ nav {
   line-height: 80px;
   z-index: 500;
   background-color: #FFFFFF;
+}
+
+nav h3 {
+  font-size: 24px;
 }
 
 #nav-grande .nav-link,
@@ -266,6 +274,56 @@ main .info a:nth-of-type(2) {
   font-size: 30px;
   padding: 0 10px 50px;
 }
+
+/* REGOLE FOOTER */
+
+footer {
+  background-color: #000000;
+  color: #FFFFFF;
+  padding: 40px 0;
+  /* debug */
+  min-height: 500px;
+}
+
+footer .row {
+  padding: 40px 0;
+  border-bottom: 1px solid #666666;
+}
+
+footer h3 {
+  font-size: 24px;
+}
+
+footer h4 {
+  font-size: 18px;
+  margin-top: 5px;
+}
+
+footer ul.lista-link li {
+  font-size: 14px;
+  margin: 10px 0;
+}
+
+footer ul.lista-social li {
+  display: inline-block;
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+footer .text {
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+
+
+
+
+
+
+
+
+
 
 
 /* REGOLE SMARTPHONE */
